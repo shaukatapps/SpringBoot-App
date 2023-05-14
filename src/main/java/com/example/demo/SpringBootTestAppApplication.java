@@ -9,6 +9,7 @@ public class SpringBootTestAppApplication {
 
 	public static void main(String[] args) {
 	 ConfigurableApplicationContext run =	SpringApplication.run(SpringBootTestAppApplication.class, args);
+	 //changes for HIS-124
 	 run.close();
 	}
 
